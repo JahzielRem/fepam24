@@ -23,8 +23,7 @@ html, body {
     width: 100%;
     display: flex;
     font-family: 'Poppins', sans-serif;
-    background: radial-gradient(circle at center, #111a22, #111822, #0c1416, #0a1012, #000000);
-    background-image: url('images/backgrouund-1.jpeg');
+    background-image: url('backgrouund-1.jpeg');
     background-attachment: fixed;
     background-size: 20px 20px;
     background-attachment: fixed;
