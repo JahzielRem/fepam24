@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CECyTE14.edu.mx</title>
+    <link rel="stylesheet" href="styles.css" href="responsive-lap.css">
+</head>
+
+<body>
+    <div class="Contenedor">
+        <!-- Encabezado con logo y navegación -->
+        <header class="header-content">
+            <h3>&copy; 2024 CECyTE 14, by Jahziel. Todos los derechos reservados.</h3>
+            <nav class="menu container menu-hidden" aria-label="Menú de navegación principal">
+                <input type="checkbox" id="menu">
+                <label for="menu"><img src="images/menu.png" class="menu-icono" alt="Icono de menú"></label>
+                <ul class="navbar">
+                    <li class="dropdown">
+                        <a href="#carreras" title="Carreras que ofrecemos">Carreras Técnicas</a>
+                        <ul class="dropdown-content">
+                            <li><a href="carrera1.html" title="Carrera 1" class="internal-link">Programación</a></li>
+                            <li><a href="carrera2.html" title="Carrera 2" class="internal-link">Ecoturismo</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-1">
+                        <a href="#" title="Conoce a tus próximos Maestros">Docentes</a>
+                        <ul class="dropdown-1-content">
+                            <li><a href="A-docentes.html" class="docentes-link internal-link" title="Docentes de materias Básicas">De materias Básicas</a></li>
+                            <li class="dropdown-1-1">
+                                <a href="#tipo" title="Docentes de campo Profesional">De campo Profesional</a>
+                                <ul class="dropdown-1-1-content">
+                                    <li><a href="B-docentes.html" title="Docentes de Programación" class="internal-link">Programación</a></li>
+                                    <li><a href="C-docentes.html" title="Docentes de Ecoturismo" class="internal-link">Ecoturismo</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#admisiones" title="Proceso de admisión">Admisiones</a></li>
+                    <li><a href="#proyectos" title="Proyectos por Estudiantes">Proyectos</a></li>
+                    <li><a href="#proyectos" title="Proyectos por Estudiantes">Plantel</a></li>
+                    <li><a href="#" id="contactBtn"><img src="images/contact.png" alt="Contáctanos" style="width: 20px; height: 20px;"></a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <div class="clock-container">
+            <div id="clock"></div>
+            <p class="clock-lemma">Tu futuro es HOY</p>
+        </div>
+
+        <!-- Sección Visión-Misión debajo del reloj -->
+        <section id="VisiónMisión" class="Visión-Misión">
+            <div class="content-container">
+                <div class="content-item" id="visión">
+                    <h2>Visión</h2>
+                    <p>En el CECyTE queremos consolidarnos como un organismo joven en
+                        la impartición de la Educación Media-Superior comprometida con la
+                        continua mejora de la calidad de los servicios que ofrecemos.
+                        Ayudando así a los jóvenes a ser cada vez mejores en su competencia intelectual
+                        y laboral.</p>
+                </div>
+                <div class="content-item" id="misión">
+                    <h2>Misión</h2>
+                    <p>Mediante la impartición de una Educaión Media-Superior,
+                        queremos activamente formar jóvenes competitivos, responsables, y
+                        comprometidos a contribuir en el desarrollo económico y cultural de su
+                        entorno.
+                    </p>
+                </div>
+            </div>
+            <img id="rightButton" src="images/rightButton.png" alt="Botón Derecho" />
+            <img id="leftButton" src="images/leftButton.png" alt="Botón Izquierdo" />
+        </section>
+
+        <!-- Contenido de la página principal -->
+        <main class="main-container">
+            <!-- Contenedor principal con logo y sección hero -->
+            <div class="content-wrapper">
+                <div class="left-content">
+                    <div class="arrows" id="arrows-logo-top"></div>
+                    <div class="arrows" id="arrows-logo-bottom"></div>
+                    <div class="arrows" id="arrows-logo-left"></div>
+                    <div class="arrows" id="arrows-logo-right"></div>
+                    <img src="images/logo (s) (1).png" alt="Logotipo" class="logo">
+                    <section class="hero">
+                        <h2>Conoce más acerca del:<br><span class="highlight">Plantel No. 14</span></h2>
+                        <div class="arrow" id="arrow-h2"></div> <!-- Flecha para el h2 -->
+                        <div class="arrow" id="arrow-paragraph"></div> <!-- Flecha para el párrafo -->
+                        <p>En el CECyTE Tabasco, formamos a los líderes del mañana con una educación de calidad, basada
+                            en valores como la iniciativa, la disciplina, la responsabilidad y la lealtad. Únete a
+                            nosotros y construye tu futuro con excelencia.</p>
+                        <div class="arrow" id="arrow-button"></div> <!-- Flecha para el botón -->
+                        <a href="#" id="ubicacionBtn" class="cta-1-button">
+                            <img src="images/gmaps.png" alt="Ubícanos" class="button-image"> UBÍCANOS
+                        </a>
+                    </section>
+
+                </div>
+                <div class="gallery-wrapper">
+                    <h2 class="subtitulo">Nuestros:</h2>
+                    <section id="galeria01">
+                        <img src="images/Valores (1).png" alt="Honestidad" data-src="images/Valores (1).png">
+                        <img src="images/Valores (2).png" alt="Responsabilidad" data-src="images/Valores (2).png">
+                        <img src="images/Valores (3).png" alt="Lealtad" data-src="images/Valores (3).png">
+                        <img src="images/valores (7).png" alt="Disciplina" class="ampliada"
+                            data-src="images/valores (7).png">
+                        <img src="images/Valores (4).png" alt="Disciplina" data-src="images/Valores (4).png">
+                        <img src="images/Valores (5).png" alt="Iniciativa" data-src="images/Valores (5).png">
+                        <img src="images/Valores (6).png" alt="Puntualidad" data-src="images/Valores (6).png">
+                    </section>
+                </div>
+            </div>
+
+            <div class="arrow" id="arrow-CTA"></div> <!-- Flecha CTA-->
+            <!-- Sección CTA -->
+            <section id="cta" class="cta-section">
+                <img onclick="window.location.href='#top'" src="images/logo (s) (3).png" alt="Logo" class="cta-logo">
+                <h1 class="cta-title">¡Tu mejor opción!</h1>
+                <p class="cta-subtitle">No lo pienses más y únete a nosotros:</p>
+                <button class="cta-button" onclick="window.location.href='#admisiones'">Inscríbete ¡Ahora!</button>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-section">
+                    <h3><span class="lft">Contacto</span></h3>
+                    <p><span class="Upper">Ubicación:</span> Av. Golfo Pérsico esquina Insurgentes S/N, Dos Montes,
+                        Centro, Tabasco. CP: 86275 </p>
+                    <p><span class="Upper">Teléfono:</span> +123 456 789</p>
+                    <p><span class="Upper">Email:</span> info@plantel14.edu</p>
+                </div>
+                <div class="footer-section loger">
+                    <h3>Plantel 14</h3>
+                    <a href="#">
+                        <img src="images/logo (s) (1).png" alt="loger">
+                    </a>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <div class="buttons">
+                        <button onclick="window.location.href='#top'">Volver al Inicio</button>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociales</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/p/Cecyte-Tabasco-Plantel-14-Pob-Dos-Montes-100064197184557/"
+                            class="external-link">
+                            <img src="images/facebook.png" alt="Facebook">
+                        </a>
+                        <a href="#" class="external-link">
+                            <img src="images/x.png" alt="Twitter">
+                        </a>
+                        <a href="#" class="external-link">
+                            <img src="images/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Ventana Modal de Contacto -->
+        <div id="contactModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2> <img src="images/contact.png" alt="Img" class="img-contact"></img> Contacto :</h2>
+                <p><span class="Upper">Ubicación: <br></span>Av. Golfo Pérsico esquina Insurgentes S/N, Dos Montes,
+                    Centro, Tabasco. CP: 86275</p>
+                <p><span class="Upper">Teléfono: <br></span>993-358-0810</p>
+                <p><span class="Upper">Email: <br></span>cecyte14@cecytab.edu.mx</p>
+            </div>
+        </div>
+
+        <!-- Ventana Modal de Ubicación -->
+        <div id="ubicacionModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Ubicación</h2>
+                <img src="images/img-ubicación.png" alt="Ubicación" class="img-1">
+                <a href="https://www.google.com/maps/dir/17.9865326,-92.8298211/cecyte+plantel+14+ubicacion
+            /@17.9776076,-92.8298567,18.75z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x85eddf97d771aad1:0xd13ab58
+            71862bbe4!2m2!1d-92.8297618!2d17.977587?entry=ttu" class="btn-ir"><img src="images/gmaps.png"></img></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Añadir un evento a todos los enlaces externos para guardar el estado del menú
+        document.querySelectorAll('.external-link').forEach(link => {
+            link.addEventListener('click', function () {
+                sessionStorage.setItem('menuVisible', 'true');
+                sessionStorage.setItem('showAllElements', 'true'); // Añadido
+                window.open(link.href, '_blank');
+            });
+        });
+
+        // Añadir un evento a todos los enlaces internos para guardar el estado del menú
+        document.querySelectorAll('.internal-link').forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                sessionStorage.setItem('menuVisible', 'true');
+                sessionStorage.setItem('showAllElements', 'true'); // Añadido
+                window.location.href = link.href;
+            });
+        });
+
+        // Obtén todos los enlaces en el documento
+    var links = document.querySelectorAll('a');
+
+// Recorre cada enlace
+links.forEach(function(link) {
+  // Obtén el atributo href del enlace
+  var href = link.getAttribute('href');
+
+  // Comprueba si el enlace no está vacío
+  if (href) {
+    // Crea un objeto URL para analizar el href
+    var url = new URL(href, window.location.href);
+
+    // Comprueba si el enlace está en la misma carpeta y es un archivo HTML
+    var isSameFolder = (url.origin === window.location.origin) && 
+                       (url.pathname.startsWith(window.location.pathname.replace(/\/[^\/]*$/, '/')));
+    var isHTML = url.pathname.endsWith('.html');
+
+    if (!isSameFolder || !isHTML) {
+      // Si no es el mismo directorio o no es un archivo HTML, abrir en una nueva pestaña
+      link.setAttribute('target', '_blank');
+    }
+  }
+});
+    </script>
+    <script src="S-script.js"></script>
+</body>
+
+</html>
